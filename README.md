@@ -18,6 +18,19 @@ All of the code are copy from [free-ran-ue](https://github.com/free-ran-ue).
 | `test` | free-ran-ue code test check |
 | `lint` | free-ran-ue code lint check |
 
+## What you need TODO?
+
+1. Complete the task about implementing the requirement of two pdu establishment on single RAN.
+2. Put the second PDU session to the secondary RAN.
+
+> [!Important] Limitation
+> You can only mdify the files under free-ran-ue directory.
+
+> [!Note] Hint
+> 1. You may need to update the model since there is something additional in both gnb and ue configuration files.
+> 2. The second PDU session is requried, so the second PDU_SESSION_ID is needed.
+> 3. The UE will use the same IP to connect to the master RAN and secondary RAN but with different PORT.
+
 ## Test
 
 Get into the test directory and run the [grade.sh](test/grade.sh) script.
